@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Register for our upcoming event with our easy-to-use online form. Provide your details, select sessions, and confirm your participation seamlessly."
+    />
+    <meta
+      name="keywords"
+      content="Bluekode event registration, online form,Bluekode sign up,Bluekode event details,Bluekode participant registration, Bluekode event sessions,Bluekode event enrollment, confirm participation, easy registration,Bluekode event planning"
+    />
+    <link
+      rel="shortcut icon"
+      href="./favicon/events/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>BlueKode Events</title>
+    <style>
+        button{
+            padding: 0.5rem;
+            color: blue;
+        }
+        table{
+            
+            border: solid #aaa;
+        }
+    </style>
+  </head>
+  <body style="background-color: bisque;">
+    <center>
+    <h1>Bluekode Academy Events</h1>
+    <h2>Registration Form</h2>
+    <form action="">
+      <table>
+        <tr>
+          <th><label for="fname">First Name</label></th>
+          <td><input type="text" class="fname" id="fname" /></td>
+        </tr>
+        <tr>
+          <th><label for="Lname">Last Name</label></th>
+          <td><input type="text" class="Lname" id="Lname" /></td>
+        </tr>
+        <tr>
+          <th><label for="phnumber">Phone Number</label></th>
+          <td><input type="tel" name="phnumber" id="phnumber" /></td>
+        </tr>
+        <tr>
+          <th><label for="seatbooking">Bookings:</label></th>
+          <td>
+            <input type="radio" name="seatbooking" id="seatbooking" />Regular
+          </td>
+          <td><input type="radio" name="seatbooking" id="seatbooking" />VIP</td>
+        </tr>
+        <br />
+        <tr>
+          <th><label for="Events">Event Activities:</label></th>
+          <td>
+            <input type="checkbox" name="Events" id="Events" />Attending Morning
+            Schedule
+          </td>
+          <td>
+            <input type="checkbox" name="Events" id="Events" />Attending Evening
+            Schedule
+          </td>
+        </tr>
+        <tr>
+          <th><label for="date">Preferred Date</label></th>
+          <td><input type="date" name="date" id="date" /></td>
+        </tr>
+        <tr>
+            <th><button type="submit">SUBMIT</button></th>
+            <td><button type="reset">RESET</button></td>
+        </tr>
+      </table>
+    </form>
+</center>
+  </body>
+</html>
